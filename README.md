@@ -1,5 +1,7 @@
 # About
 
+[![Build Status](https://api.travis-ci.org/fauria/mongoose-sanitizer.svg)](https://api.travis-ci.org/fauria/mongoose-sanitizer)
+
 Simple plugin for [Mongoose](https://github.com/LearnBoost/mongoose) that sainitizes document fields before saving them. Makes use of [Google Caja's HTML Sanitizer](https://github.com/theSmaw/Caja-HTML-Sanitizer) to perform the sanitization.
 
 <table>
