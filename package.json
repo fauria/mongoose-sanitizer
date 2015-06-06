@@ -1,0 +1,42 @@
+{
+  "name": "mongoose-sanitizer",
+  "version": "1.0.0",
+  "description": "Mongoose Sanitizer Plugin",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^3.0.0",
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.0",
+    "gulp-mocha": "^2.1.1",
+    "mongoose": "^4.0.5",
+    "sanitizer": "^0.1.2",
+    "traverse": "^0.6.6"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.0",
+    "gulp-mocha": "^2.1.1"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fauria/mongoose-sanitizer.git"
+  },
+  "keywords": [
+    "mongoose",
+    "xss",
+    "sanitizer"
+  ],
+  "author": "Fer Uría <fauria@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fauria/mongoose-sanitizer/issues"
+  },
+  "homepage": "https://github.com/fauria/mongoose-sanitizer"
+}
