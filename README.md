@@ -30,17 +30,17 @@ var sanitizerPlugin = require('mongoose-sanitizer');
 MyMongooseSchema.plugin(sanitizerPlugin);
 ```
 
-When saving a document generated with MyMongooseSchema, mongoose-sanitizer will automatically iterate over every field, sanitizing it before storing in the database.
+When saving a document generated with MyMongooseSchema, mongoose-sanitizer will automatically iterate over every field, sanitizing them before storage in the database.
 
 An optional options object can be passed with the following attributes:
 
 - `skip`
   - Default is `[]`
-  - Array indicating which fields should be excluded from being sanitized.
+  - Array indicating which fields should be excluded from being sanitized. If omitted or empty, every field in the document will be sanitized.
   
 - `include`
   - Default is `[]`
-  - Array indicating which fields should be sanitized. If omitted or empty, every field in the document will be parsed.
+  - Array indicating which fields should be sanitized. If omitted or empty, every field in the document will be sanitized.
    
 
 ## License

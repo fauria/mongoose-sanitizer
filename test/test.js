@@ -67,5 +67,11 @@ describe('Mongoose Sanitizer Tests', function() {
 	 	done();
 	});
 
+	after(function(done){
+		// https://github.com/sindresorhus/gulp-mocha/issues/54#issuecomment-59713090
+		mongoose.connection.close();
+		done();
+	});
+
 });
 
